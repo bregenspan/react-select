@@ -10,12 +10,6 @@ import defaultArrowRenderer from './utils/defaultArrowRenderer';
 import defaultClearRenderer from './utils/defaultClearRenderer';
 import defaultFilterOptions from './utils/defaultFilterOptions';
 
-Select.Async = Async;
-Select.AsyncCreatable = AsyncCreatable;
-Select.Creatable = Creatable;
-Select.Value = Value;
-Select.Option = Option;
-
 export default Select;
 export {
 	Async,

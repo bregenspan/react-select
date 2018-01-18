@@ -2653,11 +2653,5 @@ AsyncCreatableSelect.defaultProps = {
 	children: defaultChildren$1
 };
 
-Select$1.Async = Async;
-Select$1.AsyncCreatable = AsyncCreatableSelect;
-Select$1.Creatable = CreatableSelect;
-Select$1.Value = Value;
-Select$1.Option = Option;
-
 export { Async, AsyncCreatableSelect as AsyncCreatable, CreatableSelect as Creatable, Value, Option, menuRenderer as defaultMenuRenderer, arrowRenderer as defaultArrowRenderer, clearRenderer as defaultClearRenderer, filterOptions as defaultFilterOptions };
 export default Select$1;
